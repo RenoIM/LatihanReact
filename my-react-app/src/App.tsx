@@ -1,10 +1,12 @@
 import './App.css'
+import { UserCard } from './UserCard'
 
 function App() {
   return (
-    <>
-    <h1>Hello World</h1>
-    </>
+    <div>
+    <UserCard name="Reno Ikhmal Maulana" job="Web Developer" avatarUrl="http://localhost:5173/vite.svg"/>
+    <UserCard name="Razif Akbar" job="UI Tester" avatarUrl="http://localhost:5173/vite.svg"/>
+    </div>
   )
 }
 
