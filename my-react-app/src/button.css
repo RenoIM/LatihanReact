@@ -1,3 +1,5 @@
-.button {
+.tombol {
     background-color: blueviolet;
+    border-color: tomato;
+    border-radius: 25%;
 }
