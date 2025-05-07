@@ -1,6 +1,7 @@
 import './App.css'
 import { UserCard } from './UserCard'
 import Helloworld from './Helloworld'
+import Button from './button';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <h1>Hello</h1>
     <h2>Nyoba Nyoba react</h2>
     <Helloworld name='Reno'/>
+    <Button Flag='Hello'/>
     </>
   );
 }
