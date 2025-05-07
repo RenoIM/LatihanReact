@@ -7,6 +7,5 @@ import { UserCard } from './UserCard.tsx'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <App/>
-    <UserCard name={''} job={''} avatarUrl={''}/>
   </StrictMode>,
 )
