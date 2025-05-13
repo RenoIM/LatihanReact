@@ -19,6 +19,7 @@ function App() {
     <h2>Nyoba Nyoba react</h2>
     <Helloworld {...props}/>
     <Button Flag='Hello'/>
+    <Button Flag=''/>
     </>
   );
 }
