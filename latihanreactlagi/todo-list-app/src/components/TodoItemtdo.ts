@@ -1,4 +1,5 @@
 export type TodoItemProps = {
+    filter(arg0: (todo: any) => boolean): unknown;
     id: number;
     todo: string;
     status: number;

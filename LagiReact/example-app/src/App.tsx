@@ -1,25 +1,22 @@
-import { useState } from 'react'
+// import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [counter, setCounter] = useState(1);
+  // Nyoba useEffect Fuction
+  useEffect(() => {
+    console.log("Compoment meng mount");
+    // Nyoba Cleanup Function
+    return () => {
+      console.log("Meng Clean Up");
+    }
+  }, [counter]);
 
   return (
     <>
-      <div className="card">
-        <button onClick={() => {
-          setCount((count) => count + 20);
-          console.log(count);
-        }}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <h1>{counter}</h1>
+      <button onClick={() => setCounter(counter+1)}> Tambah </button>
     </>
   )
 }

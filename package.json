@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "react-router-dom": "^7.6.2"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.50.1",
+    "react-use": "^17.6.0",
+    "sweetalert2": "^11.22.1"
+  }
+}
